@@ -1,0 +1,39 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 2.5rem;
+    padding: .5rem 0;
+}
+
+.header_left{
+    display: flex;
+    align-items: center;
+}
+
+
+.header_left a{
+    text-decoration: none;
+    font-family: sans-serif;
+
+
+}
+a > span{
+    margin: 0 30px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: white;
+}
+
+a > span:hover{
+    color: red;
+}
+
+.header_icon{
+    width: 100px;
+    cursor: pointer;
+}
+
+.user_avatar{
+    font-size: 2rem;
+}
